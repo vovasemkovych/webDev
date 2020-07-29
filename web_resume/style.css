@@ -1,0 +1,181 @@
+.body{
+    font-family: 'Red Rose', cursive;
+    background: #CECCCC
+    
+	margin:0;
+	
+		content:'';
+		background:#CECCCC url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cheap_diagonal_fabric.png);
+		background-blend-mode: multiply;
+		mix-blend-mode: multiply;
+		position:absolute;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		z-index: 10;
+	
+		
+	
+}
+.header{
+	width:100%;
+  height:100px; 
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:blue;
+	background:#DED9D9 ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+
+}
+.name{
+	margin: 15px;
+	font-size: 60px;
+	
+}
+
+.nav_bar{
+	display: flex;
+	font-size: 30px;
+	color: black;
+	
+}
+
+.a{
+	text-decoration: none;
+	color:black;
+	padding-right: 60px;
+	
+}
+.a:hover{
+	text-decoration:underline; 
+	transform: scale(1.3,1.3)
+}
+.language{
+	text-decoration-line: none;
+	color:black;
+
+}
+.table{
+	padding-right: 15px;
+	list-style: none;
+}
+.table_el{
+	text-decoration: none;
+	color: black;
+}
+.table_el:hover{
+	text-decoration-line: underline;
+	color:white;
+}
+.home{
+	padding-top:80px;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	margin: 45px;
+	font-size: 25px;
+	line-height: 25px;
+}
+.home_ar{
+	width: 100%;
+	
+
+}
+.h1{
+	display: flex;
+	justify-content: center;
+}
+
+.cv{
+	margin: 45px;
+	padding-top: 15px
+}	
+.cv_text{
+display: flex;
+justify-content: center
+
+}
+
+.contact_text{
+	text-align: center
+}
+
+
+.container {
+  width: 100%; 
+  background-color: #ddd; 
+}
+.email{
+	list-style: none
+}
+.skills {
+  text-align: right; 
+  padding-top: 10px; 
+  padding-bottom: 10px; /
+  color: white; 
+}
+
+.html {width: 40%; background-color: #4CAF50;} /* Green */
+.js {width: 30%; background-color: #f44336;} /* Red */
+.contact_text{
+	padding-top:75px;
+}
+.button{
+	color: #ddd
+	width:auto;
+}
+.button:hover{
+	color:white;
+	background:grey; 
+}
+
+.contact{
+	font-size: 20px
+
+
+}
+.contacts_s{
+	text-decoration: none;
+	font-size: 20px;
+	color:grey;
+	
+}
+.contacts_s:hover{
+	color:white;
+}
+canvas{
+	opacity:0;
+	transition:0s opacity cubic-bezier(.55,0,.1,1);
+	
+		opacity:0.4;
+	
+	
+}
+
+.intro{
+	position: absolute;
+	padding-top: 30px;
+
+	transform:translate(-55%, -40%);
+	left:50%;
+	top:40%;
+	text-align:center;
+	color:black
+	z-index: 10;
+	width:100%;
+	max-width:900px;
+	
+	text-shadow:0px 5px 20px black;
+	
+}
+/* Responsive layout - when the screen is less than 500px wide, make the two columns stack on top of each other instead of next to each other */
+@media  (max-width: 500px) {
+   
+    width: 100%;
+    margin-top: 0;
+  
+}
